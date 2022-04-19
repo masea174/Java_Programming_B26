@@ -2,7 +2,7 @@ package day14_if_statements;
 
 import java.util.Scanner;
 
-public class ATM {/*
+public class Autentification {/*
 inputs:
 declare and assign a 4 digit pin code
 declare and assign the last 4 digits of ssn: 1234

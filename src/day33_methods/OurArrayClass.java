@@ -1,4 +1,4 @@
-package day_33_methods;
+package day33_methods;
 
 import java.util.Arrays;
 

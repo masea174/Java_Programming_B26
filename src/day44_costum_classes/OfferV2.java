@@ -1,4 +1,4 @@
-package day45_custom_classes;
+package day44_costum_classes;
 
 public class OfferV2 {
     String location;

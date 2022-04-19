@@ -1,7 +1,4 @@
-package day36_methods;
-
-import java.net.PortUnreachableException;
-import java.security.PublicKey;
+package day36_methods_overload;
 
 public class Picture {
     public static void draw(){

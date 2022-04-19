@@ -1,4 +1,4 @@
-package day36_methods;
+package day36_methods_overload;
 
 public class ArrayIndeOf {
     public static int indexOf(int[]a,int element){

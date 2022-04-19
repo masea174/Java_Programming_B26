@@ -1,4 +1,4 @@
-package day_34_return_methods;
+package day34_return_methods;
 
 public class MethodWithOthers {
     public static String dayInWords(int i){

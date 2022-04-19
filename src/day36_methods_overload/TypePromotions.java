@@ -1,4 +1,4 @@
-package day36_methods;
+package day36_methods_overload;
 
 public class TypePromotions {
     public static void main(String[] args) {

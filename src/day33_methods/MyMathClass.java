@@ -1,4 +1,4 @@
-package day_33_methods;
+package day33_methods;
 
 public class MyMathClass {
     public static void add(double num1,double num2){

@@ -1,4 +1,4 @@
-package day_32_multiverse_arrays;
+package day32_multiverse_arrays;
 
 import java.util.Arrays;
 

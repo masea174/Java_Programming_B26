@@ -1,6 +1,4 @@
-package day_34_return_methods;
-
-import java.util.Locale;
+package day34_return_methods;
 
 public class Currency {
     /*

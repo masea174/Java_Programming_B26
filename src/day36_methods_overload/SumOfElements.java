@@ -1,4 +1,4 @@
-package day36_methods;
+package day36_methods_overload;
 
 public class SumOfElements {
 //    public static int sum(int[]nums){

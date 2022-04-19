@@ -1,2 +1,51 @@
-package day18_string;public class Title {
+package day18_string;
+
+import java.util.Locale;
+import java.util.Scanner;
+
+public class Title {
+    /*
+    create a class Title
+ask the user to enter their name including titles
+use the following titles to determine how to refer to the person as
+
+handle case sensitivity. User could enter a title as ms, or MS, or Ms. All should result in a valid result
+
+	titles:
+
+		Mr or Mister
+		Ms or Miss or Madam
+		Dr
+
+	and some titles can come after a name:
+
+		Sr
+		Jr
+
+Based on both starting and ending titles print the following messages:
+
+		Mr or Mister: Hello Sir
+		Ms or Miss or Madam: Hello Ma'am
+		Dr: Hello Doctor
+
+		Sr: Nice to meet you Senior
+		Jr: Nice to meet you Junior
+
+Note: It is possible to have both beginning and ending titles, one of them, or none of them
+     */
+    public static void main(String[] args) {
+        Scanner input = new Scanner(System.in);
+        System.out.println("please enter your full name including your title:");
+        String name = input.nextLine();
+        name = name.toLowerCase();
+        if (name.startsWith("mr")) System.out.println("Hello Sir");
+        if (name.startsWith("mister")) System.out.println("Hello Sir");
+        if (name.startsWith("ms")) System.out.println("Hello Ma'am");
+        if (name.startsWith("miss")) System.out.println("Hello Ma'am");
+        if (name.startsWith("madam")) System.out.println("Hello Ma'am");
+        if (name.startsWith("dr")) System.out.println("Hello Doctor");
+        if (name.endsWith("sr")) System.out.println("Nice to meet you Senior");
+        if (name.endsWith("jr")) System.out.println("Nice to meet you Junior");
+
+    }
 }

@@ -1,11 +1,12 @@
 package day41_arraylist;
 
 import java.util.ArrayList;
+import java.util.Collections;
 
-public class RemoveCountries {
+public class RemoveDuplicates {
 
-    public static ArrayList<String> removeCountries(ArrayList<String> list) {
-        list.removeAll(country->country.length()>7);;
+    public static ArrayList<Integer> removeCountries(ArrayList<Integer> list) {
+        list.removeIf(num-> Collections.frequency(list,num)>1);;
         return list;
     }
 }
