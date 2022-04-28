@@ -10,6 +10,8 @@ public class UseComputer {
         System.out.println(Computer.hasScreen);
         System.out.println(comp);
         System.out.println(comp1);
+        comp1.hasBattery=false;
+        System.out.println(comp.hasBattery);
 
     }
 }

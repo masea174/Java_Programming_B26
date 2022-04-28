@@ -15,7 +15,7 @@ public class IfElseExample {
         } else{
             System.out.println("Failing");
         }
-        int year=2022;
+        int year=2020;
         boolean lockdown= year == 2020 || year== 2021;
         if (lockdown){
             System.out.println("Stay at home ");

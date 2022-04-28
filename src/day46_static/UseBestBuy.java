@@ -1,5 +1,7 @@
 package day46_static;
 
+import java.util.Arrays;
+
 public class UseBestBuy {
     public static void main(String[] args) {
 
@@ -27,6 +29,8 @@ public class UseBestBuy {
 
         store1.openStore();
         store2.openStore();
+        System.out.println(store1.numberOfComputers);
+
     }
 
 }
