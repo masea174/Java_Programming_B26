@@ -1,6 +1,8 @@
 package day46_static;
 
+
 import java.util.Arrays;
+
 
 public class CydeoStudent {
    public String name;

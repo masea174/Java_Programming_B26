@@ -9,4 +9,5 @@ public class Animal {
         print += "\nPopulation: " + population;
         return print;
     }
+
 }

@@ -8,4 +8,13 @@ public class Animal {
         System.out.println( species+" is walking");
     }
 
+    public Animal(String species) {
+        this.species = species;
+    }
+
+    public Animal(String species, int numberOfLegs) {
+        this(species);
+        this.numberOfLegs = numberOfLegs;
+    }
 }
+

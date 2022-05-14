@@ -16,6 +16,8 @@ public class StaticImportWithImport {
 
         System.out.println(abs(-1));
 
+        System.out.println(camelCase("HEtrro Ia smmn"));
+
         System.out.println(reverseString("apple"));
 
     }

@@ -59,7 +59,6 @@ public class Book {
      */
 
     public static boolean isTitleWord(String word) {
-        String containingWord;
         switch (word.toLowerCase()){
             case "a":
             case"an":

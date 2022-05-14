@@ -1,13 +1,11 @@
 package day51_ihneritance.shapes;
 
-public class Shapes {
+public abstract class Shapes {
     String name;
     public Shapes(String name){
         this.name=name;
     }
-    public double area(){
-        return 0.0;
-    }
+    public abstract double area();
     public  double perimeter(){
         return 0.0;
     }
