@@ -4,6 +4,7 @@ import day52_inheritance.hiding.Soccer;
 
 public class Image implements WebElement {
     @Override
+
     public void click() {
         System.out.println("Clicking the image");
     }
@@ -17,4 +18,6 @@ public class Image implements WebElement {
     public void sendKeys(String txt) {
         System.out.println("Uploading pictures");
     }
+
+    String extention;
 }

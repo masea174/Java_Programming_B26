@@ -1,6 +1,6 @@
 package day56_polymorphism.car;
 
-public class Car {
+public class Car {}
 
     class BMW extends Car { }
 
