@@ -1,5 +1,6 @@
 package day57_exeptions.webelement;
 
+import day49_inheritance.Animal;
 import day52_inheritance.hiding.A;
 
 import java.util.ArrayList;
@@ -38,8 +39,17 @@ public class Apple {
         Image logoAsImage=((Image)logo);
 
         logoAsImage.extention=".jpg";
+        name(logo);
+        name(obj);
 
 
     }
+    public static void name(WebElement obj){
+        System.out.println(obj);
 
-}
+    }
+
+    public static Animal returnType(String species){
+        return new Animal(species ) ;
+
+}}
