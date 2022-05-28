@@ -177,6 +177,6 @@ public static String wordAppend(String[] strings) {
 
             }
 
-        }
+        }return map;
     }
 }
